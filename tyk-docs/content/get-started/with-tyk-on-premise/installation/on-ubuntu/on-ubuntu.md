@@ -77,11 +77,17 @@ Ubuntu 16.04
 Apr 27 17:47:45 ubuntu-s-1vcpu-2gb-lon1-01 systemd[1]: Started High-performance, schema-free document-o
 ```
 
-### Install Redis
+### Install Redis Server
 
+Redis Server has been extensively tested against Redis 3.2.X. There should be no breaking changes with it's latest sav
+
+Ubuntu 14.04
 ```{.copyWrapper}
 sudo apt-get install -y redis-server
 ```
+
+Ubuntu 16.04
+
 
 We then recommend installing Tyk in the following order:
 
